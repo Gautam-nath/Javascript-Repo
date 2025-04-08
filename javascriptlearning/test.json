@@ -1,0 +1,15 @@
+let studentJenny = {
+    fullName: "Jenny",
+    email: "jenny@gamil.com",
+   qualification: "Be CSC",
+    isMarried: true,
+    age: 55,
+    hobbies: ["Travelling", "Programming", "Reading"],
+    marks: {
+       physics: 90,
+       maths: 67,
+        programming: 89,
+       socialScience: 78
+    }
+
+}

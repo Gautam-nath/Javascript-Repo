@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Local Storage</h2>
+    <script>
+        window.localStorage.setItem("Full Name","Gautam");
+        window.localStorage.setItem("City Name","cuttack");
+        window.localStorage.setItem("Pin code","754135");
+        window.localStorage.setItem("District Name","kendrapara");
+        const country = window.localStorage.getItem("country")
+        console.log(window.localStorage.length);
+        window.localStorage.removeItem("city");
+        console.log(window.localStorage.length);
+        
+    </script>
+</body>
+</html>
